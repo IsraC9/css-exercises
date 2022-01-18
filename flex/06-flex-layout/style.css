@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 7px;
 }
 
 input {
@@ -30,9 +31,15 @@ input {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  
 
+}
 
+.content {
+  padding: 90px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
 }
 
 
