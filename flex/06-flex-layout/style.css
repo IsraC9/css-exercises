@@ -27,7 +27,7 @@ input {
   margin-bottom: 16px;
 }
 
-.header {
+.header, .footer {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
@@ -35,13 +35,16 @@ input {
 }
 
 .content {
-  padding: 90px;
+  padding: 105px;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
 }
 
+.footer {
+  background-color: lightgrey;
+}
 
 .left-links, .right-links {
   display: flex;
